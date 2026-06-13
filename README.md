@@ -9,13 +9,8 @@
 <hr>
 
  ## Versions
- __v1.5.00__ - Added customizable launcher options, credits, settings, more memory options, and updated code!<br>
- __v1.4.00__ - Added patch notes, bug fixes, and integrated mods!<br>
- __v1.3.10__ - Organized and updated code, added memory options, more games, installations, usernames, and faq screen!<br>
- __v1.2.00__ - Updated games.<br>
- __v1.1.00__ - Updated code and optimized!<br>
- __v1.0.00__ - Main code with future updates planned!
-
+ __BETA 1.0__ - Added new images, replaced PLAY button. (sorry for grainy pictures on the launcher btw)<br>
+ 
  <hr>
 
 ## Installation
