@@ -1,6 +1,7 @@
-# <img src=".github/assets/logo.png" alt="Ampler Logo" align="right" width="150px"> Ampler Launcher v1.5.00
+# <img src=".github/assets/logo.png" alt="Ampler Logo" align="right" width="150px"> Cake Launcher BETA
  A minecraft themed launcher for Eaglercraft!<br>
  Containing some of the best clients all in one place!
+ fork of ampler launcher
 
 
 <img src=".github/assets/launcher.png" alt="Launcher Photo"><br>
@@ -46,4 +47,4 @@
 
 <hr>
 
->__Finally [here](https://irv77.github.io/AmplerLauncher/) is the live version of the code!__
+>__Finally [here](https://isuckatcpvp.github.io/) is the live version of the code!__
