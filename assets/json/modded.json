@@ -10,7 +10,7 @@
        "title": "Eaglerforge",
        "version": "1.8.8-v1.3.2",
        "icon": "./assets/images/icons/eaglerforge.png",
-       "link": "./mc/eaglerforge/",
+       "link": "https://isuckatcpvp.github.io/mc/eaglerforge/",
        "active": true
     },
     {
@@ -45,7 +45,7 @@
        "title": "Tuff Client",
        "version": "1.12.2-v1.1UT13",
        "icon": "./assets/images/mc-icons/tuff.png",
-       "link": "./mc/tuffclient/",
+       "link": "https://isuckatcpvp.github.io/mc/tuffclient/",
        "active": true
     }
  ]
