@@ -28,11 +28,11 @@
        "active": true
     },
     {
-       "title": "Eaglercraft 1.6.4",
-       "version": "1.6.4-25w17a",
+       "title": "Eaglercraft 26.2",
+       "version": "26.2-u1",
        "icon": "./assets/images/mc-icons/hay-bale.png",
-       "link": "./mc/1.6.4/",
-       "active": false
+       "link": "https://isuckatcpvp.github.io/mc/1.6.4/",
+       "active": true
     },
     {
        "title": "Older release",
