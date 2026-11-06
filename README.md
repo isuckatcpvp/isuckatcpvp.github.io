@@ -1,4 +1,4 @@
-# <img src=".github/assets/logo.png" alt="Ampler Logo" align="right" width="150px"> Cake Launcher BETA
+# <img src=".github/assets/logo.png" alt="Ampler Logo" align="right" width="150px"> Cloud Launcher
  A minecraft themed launcher for Eaglercraft!<br>
  Containing some of the best clients all in one place!
  fork of ampler launcher
@@ -9,7 +9,7 @@
 <hr>
 
  ## Versions
- __BETA 1.0__ - Added new images, replaced PLAY button. (sorry for grainy pictures on the launcher btw)<br>
+ 1.0 26.2 and turnstile<br>
  
  <hr>
 
@@ -42,4 +42,4 @@
 
 <hr>
 
->__Finally [here](https://isuckatcpvp.github.io/) is the live version of the code!__
+>__Finally [here](cloudcpvp.pages.dev) is the live version of the code!__
