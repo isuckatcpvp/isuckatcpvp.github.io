@@ -83,11 +83,15 @@ footer{margin-top:36px;font-size:.9rem;color:#fff;text-shadow:0 1px 6px rgba(0,0
 </main>
     <!-- The script that drops the curtain -->
 <script>
-function onHumanVerified(token) {
+// Forces the callback directly onto the global window object so Turnstile can always call it
+window.onHumanVerified = function(token) {
     const gate = document.getElementById('gatekeeper');
-    if (gate) gate.remove();
-}
+    if (gate) {
+        gate.remove();
+    }
+};
 </script>
+
 
 </body>
 </html>
