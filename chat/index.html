@@ -60,7 +60,7 @@ dialog label input{width:auto}
 
 <div id="login">
  <form id="lf">
-  <h1>Cake Chat</h1>
+  <h1>Cloud Chat</h1>
   <p>Pick a username and password. No email needed.</p>
   <input id="u" placeholder="Username" autocomplete="username" maxlength="20" required>
   <input id="p" type="password" placeholder="Password" autocomplete="current-password" required>
@@ -115,7 +115,7 @@ function init(){
 /* ---------- relay failover ----------
    Starts on public relays. If none answer quickly twice in a row,
    the backup (your Render relay) is added and stays connected. */
-const BACKUP_RELAY='https://YOUR-APP.onrender.com/gun'; // <- paste your Render URL
+const BACKUP_RELAY='https://cloudchatrelay.onrender.com/gun'; // <- paste your Render URL
 const SLOW_MS=3000;
 const probe=url=>new Promise(r=>{
   const t=Date.now(); let ws,to;
