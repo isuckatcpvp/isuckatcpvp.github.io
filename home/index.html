@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Cloudcpvp_'s paradise</title>
@@ -46,13 +46,6 @@ footer{margin-top:36px;font-size:.9rem;color:#fff;text-shadow:0 1px 6px rgba(0,0
 </style>
 </head>
 <body>
-    <!-- The visual challenge curtain -->
-<div id="gatekeeper" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); z-index:999999; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:sans-serif;">
-    <h2 style="color:#fff; margin-bottom:10px; font-size:2rem;">Just a moment...</h2>
-    <p style="color:#aaa; margin-bottom:25px; font-size:1.1rem;">Checking if your connection is secure.</p>
-    <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-callback="onHumanVerified" data-theme="dark"></div>
-</div>
-
 <main>
   <div class="avatar" role="img" aria-label="Pixel clouds"></div>
   <h1>Cloudcpvp_'s paradise</h1>
@@ -81,17 +74,5 @@ footer{margin-top:36px;font-size:.9rem;color:#fff;text-shadow:0 1px 6px rgba(0,0
 
   <footer>&copy; 2026 Cloudcpvp_</footer>
 </main>
-    <!-- The script that drops the curtain -->
-<script>
-// Forces the callback directly onto the global window object so Turnstile can always call it
-window.onHumanVerified = function(token) {
-    const gate = document.getElementById('gatekeeper');
-    if (gate) {
-        gate.remove();
-    }
-};
-</script>
-
-
 </body>
 </html>
